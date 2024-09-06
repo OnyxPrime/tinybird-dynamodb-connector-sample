@@ -1,0 +1,12 @@
+{
+  "name": "tinybird-dynamodb-connector-sample",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.585.0",
+    "@aws-sdk/lib-dynamodb": "^3.585.0",
+    "@faker-js/faker": "7.3.0",
+    "aws-sdk": "^2.1682.0",
+    "dotenv": "^16.4.5"
+  }
+}

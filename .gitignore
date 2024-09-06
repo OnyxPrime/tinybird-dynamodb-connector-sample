@@ -1,0 +1,4 @@
+node_modules
+.tinyb
+.env
+.venv

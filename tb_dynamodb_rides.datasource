@@ -1,0 +1,9 @@
+SCHEMA >
+    RideID String `json:$.RideID`,
+    ScooterID String `json:$.ScooterID`
+
+IMPORT_SERVICE "dynamodb"
+IMPORT_CONNECTION_NAME Tinybird-DynamoDB-Rides
+IMPORT_TABLE_ARN arn:aws:dynamodb:us-east-2:617781772453:table/Rides
+IMPORT_EXPORT_BUCKET tinybird-dynamodb-demo-export
+        
